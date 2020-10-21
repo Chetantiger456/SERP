@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script type="text/javascript" src="../js/login.js"></script>
+    
+    </head>
+    <body onload="retrieveValue()">
+        <div>
+            <form onsubmit="validate(event)" action="./todo.html">
+                <label>Username</label>
+                <input type="text" name="username" id="username" />
+                <p id="usererrormsg"></p>
+                <label>Password</label>
+                <input type="password" name="password" id="password">
+                <p id="passworderrormsg"></p>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    </body>
+</html>
+
